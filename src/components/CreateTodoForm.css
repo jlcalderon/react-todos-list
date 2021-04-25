@@ -1,0 +1,25 @@
+.todo-form {
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 3% 3% 1% 3%;
+  display: block;
+}
+
+.new-todo-input {
+  margin-top: 5px;
+  padding: 20px;
+  width: 100%;
+  height: 25%;
+  border: solid 2px darkblue;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+.add-todo {
+  padding: 20px;
+  width: 100%;
+  height: 30%;
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+}
