@@ -39,6 +39,7 @@ const Home = () => {
   return (
     <div className="container">
       <CreateTodoForm
+        data-testid="todo-form"
         handlerSubmit={handlerSubmit}
         inputText={inputText}
         handlerSetInputText={handlerSetInputText}

@@ -13,6 +13,7 @@ const CreateTodoForm = ({ handlerSubmit, inputText, handlerSetInputText }) => {
       </button>
       <input
         id="input-text"
+        data-testid="input-text"
         type="text"
         value={inputText}
         onChange={(event) => {
